@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_constrs",
+  "info": {
+    "name": "\"Проект конструкторской части\"",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "projectConstrName": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "proceUp": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

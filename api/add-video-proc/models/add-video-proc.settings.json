@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "add_video_procs",
+  "info": {
+    "name": "\"ДОП. ОБОР. ВидеоCPU\"",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "videoCpuName": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "priceUp": {
+      "type": "integer"
+    }
+  }
+}

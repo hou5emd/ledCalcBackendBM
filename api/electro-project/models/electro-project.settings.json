@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "electro_projects",
+  "info": {
+    "name": "\"Электро проекты\"",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "tapeElectroProject": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "priceUp": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

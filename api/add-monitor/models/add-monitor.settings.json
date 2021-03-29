@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "add_monitors",
+  "info": {
+    "name": "\"ДОП. ОБОР. Мониторы\"",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "monitorName": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "priceUp": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admin_agreements",
+  "info": {
+    "name": "\"Админ. согласование\"",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "tapeAgreement": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "priceUp": {
+      "default": 0,
+      "type": "integer"
+    }
+  }
+}

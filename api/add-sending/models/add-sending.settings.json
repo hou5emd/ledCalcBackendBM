@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "add_sendings",
+  "info": {
+    "name": "\"ДОП. ОБОР. Отправляшки\"",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sendControllerName": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "priceUp": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

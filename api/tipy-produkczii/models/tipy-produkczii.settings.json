@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipy_produkczii_s",
+  "info": {
+    "name": "\"Типы Продукции\"",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tapeName": {
+      "type": "string"
+    },
+    "ledModuli": {
+      "via": "typeOfProduct",
+      "collection": "led-moduli"
+    }
+  }
+}
